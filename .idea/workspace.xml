@@ -4,6 +4,7 @@
     <list default="true" id="660a0b78-5414-49e3-8529-bc9f397a44c6" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../demo-newTime/src/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo-newTime/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cv-1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cv-1/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-1/.parcel-cache/data.mdb" afterDir="false" />
@@ -21,7 +22,13 @@
       <change beforePath="$PROJECT_DIR$/../jQuery-self/src/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jQuery-self/src/jquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jQuery-self/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jQuery-self/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scratch.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/scratch.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/iconfont.496270ad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/iconfont.496270ad.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.e3acbe99.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.e3acbe99.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.ef1de363.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.ef1de363.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.ef1de363.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../yb1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../yb2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../yb3.jpg" beforeDir="false" />
@@ -67,7 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="IgnoreLang&#10;GitIgnore" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="Markdown&#10;IgnoreLang&#10;GitIgnore" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -94,7 +101,7 @@
       <workItem from="1660095874373" duration="5715000" />
       <workItem from="1660102135389" duration="2803000" />
       <workItem from="1660105157868" duration="11000" />
-      <workItem from="1660105170292" duration="638000" />
+      <workItem from="1660105170292" duration="2109000" />
     </task>
     <servers />
   </component>
