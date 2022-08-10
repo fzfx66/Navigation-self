@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>前端导航</title>
+    <style>
+        .icon {
+            width: 1em; height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- 方方习惯：简单网页写全局HTML，再写CSS；复杂的边写HTML边写CSS；!-->
+<header class="globalHeader">
+    <form  class="searchForm" method="get" action="https://www.baidu.com/s">
+        <input type="text" name="wd">
+        <button type="submit">搜索</button>
+    </form>
+</header>
+
+<main class="globalMain">
+    <ul class="siteList">
+<!--        <li>-->
+<!--            <a href="https://www.acfun.cn">-->
+<!--                <div class="site">-->
+<!--                    <div class="logo">A</div>-->
+<!--                    <div class="link">acfun.cn</div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--            <a href="https://www.bilibili.com">-->
+<!--                <div class="site">-->
+<!--                    <div class="logo">-->
+<!--                        <img src="./images/bilibili.png" alt="">-->
+<!--                    </div>-->
+<!--                    <div class="link">bilibilicom</div>-->
+<!--                </div>-->
+<!--            </a>-->
+<!--        </li>-->
+        <li class="lastLi">
+            <div class="addSite">
+                <div class="iconWrapper">
+                    <svg class="icon">
+                        <use xlink:href="#icon-add"></use>
+                    </svg>
+                </div>
+                <div class="text">新增网站</div>
+            </div>
+        </li>
+    </ul>
+</main>
+<script src="../icon/iconfont.js"></script>
+<!--引入jQuery库-->
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
