@@ -1,0 +1,161 @@
+/*css reset*/
+* {
+    box-sizing: border-box
+}
+
+*:before, *:after {
+    box-sizing: border-box
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+ul, ol {
+    list-style: none;
+}
+a{color:inherit;text-decoration: none;}
+
+img {
+    max-width: 100%
+}
+
+body {
+    background: #eee
+}
+
+.globalHeader {
+    margin: 20px;
+}
+
+.searchForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchForm > input {
+    width: 100%;
+    margin-right: 10px;
+    height: 40px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.searchForm > button {
+    border: none;
+    white-space: nowrap;
+    padding: 0 26px;
+    border-radius: 4px;
+    background: #2090CF;
+    color: white;
+    font-size: 16px;
+}
+
+.globalMain {
+    display: flex;
+    margin: auto auto;
+}
+
+.siteList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+    justify-content: space-between;
+}
+
+.siteList > li {
+}
+
+.siteList .site {
+    width: 160px;
+    border: 1px solid #ddd;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding: 15px 0;
+    position: relative;
+    cursor:pointer;         //鼠标移上变手形
+}
+
+.siteList .site > .logo {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+}
+
+.siteList .site > .link {
+    font-size: 14px;
+    margin-top: 4px;
+}
+.siteList .site > .close{
+    position:absolute;
+    right:1px;
+    top:-10px;
+    font-size: 30px;
+    cursor:default;
+}
+.siteList .addSite {
+    width: 160px;
+    display:flex;
+    border: 1px solid #ddd;
+    background: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:15px 0;
+    margin-bottom: 10px;
+}
+
+.siteList .addSite .icon {
+    width:64px;
+    height:64px;
+}
+.siteList .addSite .text{
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.siteList .addSite .iconWrapper {
+    width:64px;
+    height:64px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:500px) {
+    .searchForm{
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .globalMain{
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .siteList{
+        margin-left: 0;
+        margin-right: -25px;
+        justify-content: flex-start;
+    }
+    .siteList > li{
+        margin-right: 25px;
+    }
+    .siteList .site > .close{
+        display:none;
+    }
+    .siteList .site:hover > .close{
+        display:block;
+    }
+
+    }
