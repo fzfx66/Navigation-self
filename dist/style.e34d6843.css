@@ -9,7 +9,7 @@
 
 * {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 ul, ol {
@@ -22,7 +22,11 @@ img {
 }
 
 body {
-    background: #eee
+    background: url("girl2.0cbde280.png") no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vm;
+    overflow: hidden
 }
 
 .globalHeader {
@@ -80,7 +84,8 @@ body {
     border-radius: 4px;
     padding: 15px 0;
     position: relative;
-    cursor:pointer;         //鼠标移上变手形
+/*鼠标移上变手形*/
+    cursor:pointer;
 }
 
 .siteList .site > .logo {

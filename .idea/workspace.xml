@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="660a0b78-5414-49e3-8529-bc9f397a44c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ajax-1/public/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax-1/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax-1/public/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax-1/public/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ajax-1/server.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo-newTime/src/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../demo-newTime/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cv-1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cv-1/.parcel-cache/data.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-1/.parcel-cache/data.mdb" afterDir="false" />
@@ -21,14 +25,13 @@
       <change beforePath="$PROJECT_DIR$/../jQuery-self/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jQuery-self/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jQuery-self/src/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jQuery-self/src/jquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jQuery-self/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jQuery-self/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/2dc23a902bf0be65098759fa51892cd2.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/2dc23a902bf0be65098759fa51892cd2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/9114ff2ec28154d82ed97a47621e5dc7.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/9114ff2ec28154d82ed97a47621e5dc7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/b05e4b5ec6177e92e6257cf3676244b7.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/b05e4b5ec6177e92e6257cf3676244b7.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/iconfont.496270ad.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/iconfont.496270ad.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.e3acbe99.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.e3acbe99.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.ef1de363.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.ef1de363.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.ef1de363.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/style.798e06bd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../yb1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../yb2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../yb3.jpg" beforeDir="false" />
@@ -101,7 +104,9 @@
       <workItem from="1660095874373" duration="5715000" />
       <workItem from="1660102135389" duration="2803000" />
       <workItem from="1660105157868" duration="11000" />
-      <workItem from="1660105170292" duration="2109000" />
+      <workItem from="1660105170292" duration="4371000" />
+      <workItem from="1660303238162" duration="427000" />
+      <workItem from="1660303751145" duration="314000" />
     </task>
     <servers />
   </component>
