@@ -1,6 +1,7 @@
-{"scripts": {
-  "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
-},
+{
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  },
   "name": "navigation-self",
   "version": "1.0.0",
   "main": "index.js",
