@@ -29,9 +29,7 @@ const render = ()=>{
             window.open(node.url)
         })
         $li.on('click','.close',(e)=>{
-            console.log('zheli')
             e.stopPropagation()     //阻止冒泡
-            console.log(hashMap);
             hashMap.splice(index,1) //点击删除网站，删去数组中的此项索引
             render()
         })
@@ -65,11 +63,16 @@ window.onbeforeunload = () =>{
 }
 
 $(document).on('keypress',(e)=>{       //键盘事件
+
     const {key}=e;      //等价于key=e.key
-    for(let i=0;i<hashMap.length;i++){
-        if(hashMap[i].logo === key.toUpperCase()){
-            window.open(hashMap[i].url)
+    const control_target = e.target.toString().split('L')[1]
+
+    if(control_target === 'InputElement]'){
+    } else {
+        for(let i = 0;i < hashMap.length; i++){
+            if (hashMap[i].logo === key.toUpperCase()) {
+                window.open(hashMap[i].url)
+            }
         }
     }
-
 })

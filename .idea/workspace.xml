@@ -25,7 +25,14 @@
       <change beforePath="$PROJECT_DIR$/../jQuery-self/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../jQuery-self/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jQuery-self/src/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jQuery-self/src/jquery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jQuery-self/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../jQuery-self/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/2dc23a902bf0be65098759fa51892cd2.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/2dc23a902bf0be65098759fa51892cd2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/9114ff2ec28154d82ed97a47621e5dc7.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/9114ff2ec28154d82ed97a47621e5dc7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/ad931dfe68d08e871bfd9b503307f174.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/ad931dfe68d08e871bfd9b503307f174.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/f3bfc8ae4b020217276b7b5abea7b0c4.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/f3bfc8ae4b020217276b7b5abea7b0c4.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../yb1.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../yb2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../yb3.jpg" beforeDir="false" />
@@ -101,7 +108,7 @@
       <workItem from="1660105170292" duration="4371000" />
       <workItem from="1660303238162" duration="427000" />
       <workItem from="1660303751145" duration="1179000" />
-      <workItem from="1660353465430" duration="302000" />
+      <workItem from="1660353465430" duration="4207000" />
     </task>
     <servers />
   </component>

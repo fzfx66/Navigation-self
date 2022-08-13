@@ -123,9 +123,7 @@ var render = function render() {
             window.open(node.url);
         });
         $li.on('click', '.close', function (e) {
-            console.log('zheli');
             e.stopPropagation(); //阻止冒泡
-            console.log(hashMap);
             hashMap.splice(index, 1); //点击删除网站，删去数组中的此项索引
             render();
         });
@@ -159,13 +157,18 @@ window.onbeforeunload = function () {
 
 $(document).on('keypress', function (e) {
     //键盘事件
+
     var key = e.key; //等价于key=e.key
 
-    for (var i = 0; i < hashMap.length; i++) {
-        if (hashMap[i].logo === key.toUpperCase()) {
-            window.open(hashMap[i].url);
+    var control_target = e.target.toString().split('L')[1];
+
+    if (control_target === 'InputElement]') {} else {
+        for (var i = 0; i < hashMap.length; i++) {
+            if (hashMap[i].logo === key.toUpperCase()) {
+                window.open(hashMap[i].url);
+            }
         }
     }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.2f901593.map
+//# sourceMappingURL=main.864b4eda.map
